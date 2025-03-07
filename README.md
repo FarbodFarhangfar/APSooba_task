@@ -9,8 +9,10 @@ you can find full explaination and code in interview_APSooba.ipynb
 and each cell runs by itesel
 
 two models were tested:
+
 XGBoost with Quantile Regression
-ayesian Neural Network (BNN)
+
+Bayesian Neural Network (BNN)
 
 because there were no enough data for deep learning model and would result in overfitting
 I choose the XGBoost with Quantile Regression
