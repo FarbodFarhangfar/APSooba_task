@@ -1,0 +1,36 @@
+Document 
+
+also there is comment and note all over the code 
+
+after exploration , data cleaning and correlation 
+
+we need to standrize price , because it does not follow normal ditubation and that will be a problem for probility forcast
+
+there are strong correlation between price and features selected , 
+but also some features added or deleted based on training and result that I got for each model
+
+some insight may be :
+
+there is a strong connection between DomTotalOutage , DomPlannedOutage , that means most of outage are planned,
+so most likly there is no problem 
+
+there is no timeseries trend overall
+
+there is a strong correlation between feelslike and demand : so we do not need feelslike but it is good to know
+
+the day of the month and the hour of the day have correlation with price , so we create these
+
+I also add historical price , beacuse most likly price can effect itself
+
+
+
+...............
+there is a fastapi app that runs on mini service thinking on docker 
+...............
+there is interactice dashboard with streamlit run .\dashboard.py
+...............
+also I have a mlflow sample code but since I used google colab for this , that did not come in handy
+but I know how to use it
+
+
+

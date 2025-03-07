@@ -1,0 +1,16 @@
+services:
+  fastapi-app:
+    build: .
+    ports:
+      - "8000:8000"
+      - "8050:8050"
+    volumes:
+      - ./app:/app # Map the code to the container
+    environment:
+      - PYTHONUNBUFFERED=1
+    networks:
+      - fastapi_network
+
+networks:
+  fastapi_network:
+    driver: bridge
