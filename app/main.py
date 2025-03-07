@@ -63,7 +63,6 @@ class Features(BaseModel):
 @app.post("/predict_xgboost")
 def predict_xhboost(features: Features):
 
-    # Convert input to DataFrame
     input_df = pd.DataFrame([features.dict()])
 
     # Scale input

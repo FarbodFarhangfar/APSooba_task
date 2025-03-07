@@ -1,7 +1,7 @@
 Document 
-
 also there is comment and note all over the code 
 
+...............
 after exploration , data cleaning and correlation 
 
 we need to standrize price , because it does not follow normal ditubation and that will be a problem for probility forcast
@@ -25,7 +25,7 @@ I also add historical price , beacuse most likly price can effect itself
 
 
 ...............
-there is a fastapi app that runs on mini service thinking on docker 
+there is a fastapi app that runs on micro service architectur on docker 
 ...............
 there is interactice dashboard with streamlit run .\dashboard.py
 ...............
